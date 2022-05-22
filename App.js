@@ -8,9 +8,9 @@ const App = () => {
 	return (
 		<NativeBaseProvider>
 			<Navigator homeScreen={0} >
-				<Screen id={0} next={0} prev={0} initial={INITIAL.Fade} animate={ANIMATE.Fade} exit={EXIT.Fade} >
+				<Screen id={0} next={1} prev={0} initial={INITIAL.Fade} animate={ANIMATE.Fade} exit={EXIT.Fade} >
 					<Text color={"white"} >
-						H E L L O   D O U M O !
+						Hello World!
 					</Text>
 				</Screen>
 			</Navigator>

@@ -2,6 +2,8 @@
   "name": "web-app",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "author": "Jakku Night",
+  "homepage": "https://jakkunight.github.io/web-app",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -26,7 +28,9 @@
     "react-native-safe-area": "^0.5.1",
     "react-native-safe-area-context": "4.2.4",
     "react-native-svg": "^12.3.0",
-    "react-native-web": "0.17.7"
+    "react-native-web": "0.17.7",
+    "typescript": "^4.6.4",
+    "zod": "^3.16.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
